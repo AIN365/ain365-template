@@ -1,0 +1,9 @@
+{
+	"xsahaa-access": {
+		"application_user": {
+			"roles": [
+				"AIN365_Role"
+			]
+		}
+	}
+}

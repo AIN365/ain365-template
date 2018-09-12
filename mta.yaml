@@ -1,0 +1,30 @@
+ID: exercise-TEMPLATE_USER
+_schema-version: '3.1'
+version: 1.0.0
+
+modules:
+ - name: TEMPLATE_USER-db
+   type: hdb
+   path: db
+   requires:
+    - name: TEMPLATE_USER-hdi
+      properties:
+        TARGET_CONTAINER: '~{hdi-container-name}'
+    - name: ain365-hdi
+      group: SERVICE_REPLACEMENTS
+      properties:
+        key: ain365-core
+        service: '~{ain365-service-name}'
+    - name: xsahaa-access
+
+resources:
+ - name: TEMPLATE_USER-hdi
+   properties:
+      hdi-container-name: ${service-name}
+   type: com.sap.xs.hdi-container
+ - name: ain365-hdi
+   type: org.cloudfoundry.existing-service
+   properties:
+     ain365-service-name: '${service-name}'
+ - name: xsahaa-access
+   type: org.cloudfoundry.existing-service

@@ -1,0 +1,14 @@
+{
+   "ain365.exercise.synonyms::Tweets":{
+      "target":{
+         "object":"ain365.exercise.core.models::filteredTweets",
+         "schema.configure":"ain365-hdi/schema"
+      }
+   },
+   "ain365.exercise.synonyms::TweetSentiments":{
+      "target":{
+         "object":"ain365.exercise.core.data::views.TweetSentiments",
+         "schema.configure":"ain365-hdi/schema"
+      }
+   }
+}

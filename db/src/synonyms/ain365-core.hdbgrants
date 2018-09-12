@@ -1,0 +1,14 @@
+{
+	"ain365-core": {
+		"object_owner": { 
+			"container_roles": [
+				"ain365.exercise.core.roles::external_access_g#"
+			]
+		},
+		"application_user": {
+			"container_roles": [
+				"ain365.exercise.core.roles::external_access"
+			]
+		}
+	}
+}
