@@ -6,5 +6,4 @@ This is a template project for session AIN365 - "Deep Dive into SAP Analytics Cl
 
 ## License
 
-Copyright (c) 2018 SAP SE or an SAP affiliate company. All rights reserved.
-This file is licensed under the Apache Software License, v. 2 except as noted otherwise in the [LICENSE file](LICENSE).
+This project is licensed under the SAP SAMPLE CODE LICENSE AGREEMENT except as noted otherwise in the [LICENSE file](LICENSE).
